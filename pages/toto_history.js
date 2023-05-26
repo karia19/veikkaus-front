@@ -31,7 +31,8 @@ const History = () => {
                 setAllDetails(ownApi.data)
                 setRaceDetails(ownApi.data[0])
 
-                const response = await axios.post("http://toto.kumstrapi.xyz/api/v1/toto/history_ods", days)
+                //const response = await axios.post("http://toto.kumstrapi.xyz/api/v1/toto/history_ods", days)
+                const response = await axios.post("https://server-toto.onrender.com/api/v1/toto/history_ods", days)
                 setRaceLen(ownApi.data.map(x => x['raceNumber']))
                 setHistory(JSON.parse(response.data))    
                 //console.log(raceLen)            
