@@ -12,12 +12,16 @@ const tracks = ['', 'Kuopio', 'Vermo', 'Härmä', 'Pori', 'Ylivieska', 'Jokimaa'
 'Seinäjoki', 'Joensuu', 'Kouvola', 'Mikkeli', 'Lappeenranta', 'Oulu', 
 'Forssa', 'Turku', 'Joensuu', 'Jyväskylä','Teivo', 'Vieremä', 'Kuopio', 'Kajaani']
 
-
+/*
 const todayUrl = "http://0.0.0.0:8000/api/v1/toto/today"
 const todayOdsURL = "http://0.0.0.0:8000/api/v1/toto/odds"
 
 const dockerInAWS = "http://toto.kumstrapi.xyz/api/v1/toto/today"
 const dockerInAWSOds = "http://toto.kumstrapi.xyz/api/v1/toto/odds"
+*/
+
+const dockerInAWS = "https://server-toto.onrender.com/api/v1/toto/today"
+const dockerInAWSOds = "https://server-toto.onrender.com/api/v1/toto/odds"
 
 
 export default function Home() {
