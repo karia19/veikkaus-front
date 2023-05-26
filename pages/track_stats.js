@@ -14,9 +14,9 @@ const tracks = ['', 'Kuopio', 'Vermo', 'Härmä', 'Pori', 'Ylivieska', 'Jokimaa'
 
 
               
-const dockerURL =  "http://0.0.0.0:8000/api/v1/toto/history" 
-const dockerInAWS = "http://toto.kumstrapi.xyz/api/v1/toto/history"
-
+//const dockerURL =  "http://0.0.0.0:8000/api/v1/toto/history" 
+//const dockerInAWS = "http://toto.kumstrapi.xyz/api/v1/toto/history"
+const dockerInAWS = "https://server-toto.onrender.com/api/v1/toto/history"
 
 export default function Home() {
   const [ isDataREady ,setIsDataReady ] = useState('')
