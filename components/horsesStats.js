@@ -4,8 +4,8 @@ import { useRecoilState } from "recoil";
 import { horses, startNums, raceCity, selectStart } from "../context/recoilData";
 import PlotHorses from '../components/plotHorses';
 
-const dockerInAWS = "http://toto.kumstrapi.xyz/api/v1/toto/machine_learn"
-
+//const dockerInAWS = "http://toto.kumstrapi.xyz/api/v1/toto/machine_learn"
+const dockerInAWS = "https://server-toto.onrender.com/api/v1/toto/machine_learn"
 
 const todayHorses = () => {
     const [ todayHorses, setTodayHorses ] = useRecoilState(horses)
